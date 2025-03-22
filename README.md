@@ -6,9 +6,12 @@ a simple second counter using the 7-segment display of the Basys-3 FPGA.
 The source is written in [Clash](https://clash-lang.org/), an HDL based on
 Haskell.
 
-Source code is in `src/TopModule.hs`.
+Clash source code is in `src/TopModule.hs`. Input and output ports are mapped
+to physical pins by `constraints/basys-3.xdc`; note that the names used
+here need to match those specified in the [`Synthesize` annotation](https://github.com/shwestrick/basys-3-clash-counter-example/blob/9c7633f9601362a7a3daba5c6bf01a70f721914c/src/TopModule.hs#L87-L98)
+in the Clash source.
 
-Vivado batch mode scripts adapted from [`usman1515/vivado_project_template`](https://github.com/usman1515/vivado_project_template).
+This repo uses Vivado batch mode scripts adapted from [`usman1515/vivado_project_template`](https://github.com/usman1515/vivado_project_template).
 
 ## Compile and Program Device
 
