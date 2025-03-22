@@ -36,5 +36,4 @@ After the device has been programmed, you can use switch 0 (`SW0`) to enable
 the counter, which should count the number of seconds elapsed. You can reset
 the counter with the center button (`BTNC`).
 
-![IMG_0712](https://github.com/user-attachments/assets/31655b3e-750b-40cb-9c05-50b98c4d1e3b)
-
+![IMG_0712](https://github.com/user-attachments/assets/8e540cbf-4ccb-4524-9a89-632e6c50bd22)
