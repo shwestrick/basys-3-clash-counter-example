@@ -1,0 +1,10 @@
+*.bit
+*.jou
+*.log
+.Xil/
+bin/
+clockInfo.txt
+build/
+verilog/
+bitstream_run1.bit
+.stack-work/
