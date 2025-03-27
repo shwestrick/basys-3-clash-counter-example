@@ -19,10 +19,10 @@ This repo uses Vivado batch mode scripts adapted from [`usman1515/vivado_project
 Requirements:
   * [`stack`](https://docs.haskellstack.org/en/stable/)
   * Vivado
-  * Basys-3 FPGA (plugged in via USB), with jumpers set as follows:
+  * Basys-3 FPGA (plugged in via USB), setup as follows:
       * Set `JP1` (top-right corner) to the middle position, labeled `JTAG`.
       * Set `JP2` (top-left corner) to the lower position, labeled `USB`.
-
+      * Turn on power switch.
 
 You can then program the device simply by running `make`:
 ```
