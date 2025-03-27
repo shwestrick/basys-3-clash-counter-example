@@ -2,7 +2,10 @@
 *.jou
 *.log
 .Xil/
-bin/
+bin/checkpoints
+bin/logs
+bin/reports
+bin/testbench
 clockInfo.txt
 build/
 verilog/
