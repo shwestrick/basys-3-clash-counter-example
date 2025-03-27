@@ -18,7 +18,7 @@ This repo uses Vivado batch mode scripts adapted from [`usman1515/vivado_project
 
 Requirements:
   * [`stack`](https://docs.haskellstack.org/en/stable/)
-  * Vivado
+  * [Vivado](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis)
   * Basys-3 FPGA (plugged in via USB), setup as follows:
       * Set `JP1` (top-right corner) to the middle position, labeled `JTAG`.
       * Set `JP2` (top-left corner) to the lower position, labeled `USB`.
